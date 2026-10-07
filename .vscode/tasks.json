@@ -1,0 +1,18 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "Backend: mvn spring-boot:run",
+      "type": "shell",
+      "command": "mvn spring-boot:run",
+      "problemMatcher": []
+    },
+    {
+      "label": "Frontend: ng serve",
+      "type": "shell",
+      "command": "npm install && npm start",
+      "options": { "cwd": "${workspaceFolder}/angular-UI/app-rezeptbuch" },
+      "problemMatcher": []
+    }
+  ]
+}
